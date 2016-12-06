@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="HOME" android:icon="@drawable/home" android:id="@+id/home"/>
+        <item android:title="GALLERY" android:icon="@drawable/photo_gallery" android:id="@+id/photo_gallery"/>
+        <item android:title="VIDEOS" android:icon="@drawable/yt" android:id="@+id/youtube"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="TOOLs" android:icon="@drawable/tools" android:id="@+id/tools"/>
+    </group>
+
+    <item android:title="commication">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:title="SHARE" android:icon="@drawable/social_normal" android:id="@+id/share"/>
+                <item android:title="SEND" android:icon="@drawable/send_button" android:id="@+id/send"/>
+            </group>
+        </menu>
+    </item>
+</menu>
